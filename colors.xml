@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="base_black">#000000</color>
+    <color name="base_white">#FFFFFF</color>
+    <color name="base_gray">#888888</color>
+    <color name="red_main">#E53935</color>
+    <color name="red_dark">#8B0000</color>
+    <color name="green_main">#43A047</color>
+    <color name="green_dark">#1B5E20</color>
+    <color name="blue_main">#1E88E5</color>
+    <color name="blue_dark">#0D47A1</color>
+    <color name="purple_main">#8E24AA</color>
+    <color name="purple_dark">#4A148C</color>
+    <color name="warm_gray">#9E9E9E</color>
+    <color name="warm_brown">#3E2723</color>
+    <!-- новый стиль -->
+    <color name="mi_bg">#08080A</color>
+    <color name="mi_accent">#FF3B57</color>
+    <color name="mi_accent_soft">#FF8E9C</color>
+    <color name="mi_text">#F4F4F6</color>
+    <color name="mi_muted">#9B9BA8</color>
+</resources>

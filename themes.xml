@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Основная тема приложения -->
+    <style name="Theme.MeInfoApp" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/mi_accent</item>
+        <item name="colorPrimaryVariant">#C2183A</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">@color/mi_accent_soft</item>
+        <item name="colorSecondaryVariant">@color/mi_accent</item>
+        <item name="colorOnSecondary">@color/mi_bg</item>
+        <item name="colorControlActivated">@color/mi_accent</item>
+        <item name="android:textColorPrimary">@color/mi_text</item>
+        <item name="android:textColorSecondary">@color/mi_muted</item>
+        <item name="android:textColorHint">#66FFFFFF</item>
+        <item name="android:statusBarColor">@color/mi_bg</item>
+        <item name="android:navigationBarColor">@color/mi_bg</item>
+        <item name="android:windowBackground">@color/mi_bg</item>
+        <item name="android:windowAnimationStyle">@style/MeInfoWindowAnim</item>
+    </style>
+
+    <!-- Плавные переходы между экранами -->
+    <style name="MeInfoWindowAnim" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/mi_open_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/mi_open_exit</item>
+        <item name="android:activityCloseEnterAnimation">@anim/mi_close_enter</item>
+        <item name="android:activityCloseExitAnimation">@anim/mi_close_exit</item>
+    </style>
+
+    <!-- Тема для BottomSheet -->
+    <style name="BottomSheetTheme" parent="Theme.Design.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/BottomSheetStyle</item>
+    </style>
+
+    <!-- Стиль самого BottomSheet -->
+    <style name="BottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+</resources>
